@@ -1,1 +1,1 @@
-export const EXPORT_LAYOUT = "default";
+export const EXPORT_LAYOUT = 'default'

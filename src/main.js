@@ -1,15 +1,15 @@
-import { createApp } from "vue";
-import App from "./App.vue";
-import router from "./router";
-import "./styles/tailwind.css";
-import "./styles/global.css";
+import { createApp } from 'vue'
+import App from './App.vue'
+import router from './router'
+import '@/assets/styles/tailwind.css'
+import '@/assets/styles/global.css'
 
-import { resgisterGlobalComponent } from "@/utils/import";
+import { resgisterGlobalComponent } from '@/utils/import'
 
-const app = createApp(App);
+const app = createApp(App)
 
-resgisterGlobalComponent(app);
+resgisterGlobalComponent(app)
 
-app.use(router);
+app.use(router)
 
-app.mount("#app");
+app.mount('#app')
